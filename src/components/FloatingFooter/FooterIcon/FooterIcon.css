@@ -1,0 +1,37 @@
+a {
+    outline: none;
+}
+
+.footer-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;    
+    outline: none;
+}
+
+.linkedin {
+    background: url(./assets/linkedin.svg) center / 100% no-repeat;
+}
+
+.footer-icon.linkedin:hover {
+    background-image: url(./assets/linkedinHover.svg);
+}
+
+
+.github {
+    background: url(./assets/github.svg) center / 100% no-repeat;
+}
+
+.footer-icon.github:hover {
+    background-image: url(./assets/githubHover.svg);
+}
+
+
+.instagram {
+    background: url(./assets/instagram.svg) center / 100% no-repeat;
+}
+
+.footer-icon.instagram:hover {
+    background-image: url(./assets/instagramHover.svg);
+}

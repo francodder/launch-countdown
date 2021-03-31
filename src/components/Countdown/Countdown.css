@@ -1,0 +1,22 @@
+.countdown {
+    min-width: 375px;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-card {
+    width: 68px;
+    height: 68px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 1px;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #FB6087;
+    background-color: #343650;
+}

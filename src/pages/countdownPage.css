@@ -1,0 +1,52 @@
+.countdown-page {
+    position: relative;
+    width: 100%;
+    min-width: 360px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    background: #1E1F29;
+    background-image: url(./assets/bg-stars.svg);
+}
+
+.main {
+    margin-top: 100px;
+    z-index: 50;
+    /* padding: 0 20px; */
+}
+
+.main h1 {
+    margin: 0 20px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: 700;
+    letter-spacing: 6px;
+    color: white;
+}
+
+.hills {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    height: 30vh;
+    width: 100%;
+    /* object-fit: cover; */
+    background: url(./assets/pattern-hills.svg) center / cover no-repeat;
+    user-select: none;
+}
+
+.floating-footer {
+    margin-top: auto;
+    margin-bottom: 50px;
+    z-index: 100;    
+}
+
+@media (min-width: 740px) {
+    .main {
+        margin-top: 175px;
+    }
+}
